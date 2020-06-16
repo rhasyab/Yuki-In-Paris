@@ -1,0 +1,425 @@
+/* NavBar */
+.navbar {
+    margin-top: 80px;
+}
+
+.nav-item {
+    margin-left: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 0.04em;
+    color: white !important;
+}
+/* Akhir NavBar */
+
+/* Jumbotron */
+.jumbotron {
+    margin-top: -133px;
+
+    height: 768px;
+    background-image: url(yip.svg);
+}
+
+.jumbotron .display-4 {
+    margin-top: 160px;
+    font-family: Racing Sans One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 72px;
+    /* identical to box height, or 112% */
+
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+}
+
+.jumbotron .display-4:hover {
+    text-decoration: line-through;
+    color: #000000;
+}
+
+.jumbotron .lead {
+    margin-top: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 21px;
+    line-height: 31px;
+    /* or 148% */
+
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+}
+
+.jumbotron .button {
+    margin-top: 32px;
+}
+
+.btnBook {
+    width: 168px;
+    height: 56px;
+    border-radius: 0%;
+    background: #000000;
+
+    font-family: Racing Sans One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+}
+
+.btnBook:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+.btnMusic {
+    margin-right: 24px;
+    width: 168px;
+    height: 56px;
+    border-radius: 0%;
+    border: 1px solid #FFFFFF;
+
+    font-family: Racing Sans One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+}
+
+.btnMusic:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+.copyright {
+    margin-top: 160px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF !important;
+}
+/* Akhir Jumbotron */
+
+/* NM */
+.newestMusicBackground {
+    position: absolute;
+    margin-top: -30px;
+    width: 100%;
+    height: 2080px;
+    left: 0px;
+    right: 0px;
+
+    background: url(nm.svg);
+    mix-blend-mode: normal;
+}
+
+.newestMusic {
+    margin-top: 120px;
+}
+
+.albumPic {
+    width: 352px;
+    height: 352px;
+
+    background: url(albumPic.svg);
+}
+
+.musicInfo {
+    margin-left: 64px;
+}
+
+.tag {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    letter-spacing: 0.24em;
+
+    color: #666666;
+}
+
+.titleNM {
+    margin-top: 10px;
+    font-family: Racing Sans One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.04em;
+
+    color: #000000;
+}
+
+.musicDesc {
+    margin-top: 16px;
+    width: 305px;
+    height: 108px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 150% */
+
+    letter-spacing: 0.04em;
+
+    color: #000000;
+}
+
+a, u {
+    text-decoration: none !important;
+}
+
+.stats1 {
+    margin-top: 78px;
+    font-family: Racing Sans One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-decoration: none;
+
+    letter-spacing: 0.04em;
+
+    color: #000000;
+}
+
+.stats1:hover {
+    color: #FF0000;
+    text-decoration: line-through;
+}
+
+
+ .stats2 {
+    margin-top: 16px;
+    font-family: Racing Sans One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-decoration: none;
+
+    letter-spacing: 0.04em;
+
+    color: #000000;
+}
+
+.stats2:hover {
+    color: #FF0000;
+    text-decoration: line-through;
+}
+
+.btnSpotify {
+    
+    width: 184px;
+    height: 56px;
+    border-radius: 0%;
+    background: #000000;
+
+    
+}
+
+.btnAppleMusic {
+    margin-top: 24px;
+    width: 184px;
+    height: 56px;
+    border-radius: 0%;
+    background: #000000;
+    
+}
+/* Akhir NM */
+
+/* Upcoming Concert */
+.upcomingConcertBackground {
+    margin-top: 2050px;
+    position: absolute;
+    width: 100%;
+    height: 149px;
+
+    position: absolute;
+    background: url(uc.svg);
+}
+
+.upcomingConcert {
+    margin-top: 120px;
+}
+
+.concertInfo {
+    color: white !important;
+}
+
+.tagUC {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    letter-spacing: 0.24em;
+}
+
+.titleUC {
+    margin-top: 10px;
+    font-family: Racing Sans One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.04em;
+
+}
+
+.concertDesc {
+    margin-top: 16px;
+    width: 305px;
+    height: 108px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 150% */
+
+    letter-spacing: 0.04em;
+}
+
+.upcomingConcert .button {
+    margin-top: 78px;
+}
+
+.btnBuy {
+    margin-left: 24px;
+    width: 168px;
+    height: 56px;
+    border-radius: 0%;
+    background: #ffffff;
+
+    font-family: Racing Sans One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+
+    color: #000000;
+}
+
+.btnBuy:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+.btnDetail {
+    
+    width: 168px;
+    height: 56px;
+    border-radius: 0%;
+    border: 1px solid #FFFFFF;
+
+    font-family: Racing Sans One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+}
+
+.btnDetail:hover {
+    background: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+}
+/* Akhir AC */
+
+.line {
+    margin-top: 120px;
+    width: 1088px;
+    height: 0px;
+
+    border: 1px solid rgba(255, 255, 255, 0.23);
+}
+
+/* Footer */
+.footer {
+    margin-top: 64px;
+}
+
+.copyrightFooter {
+    width: 628px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: left;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF !important;
+}
+
+.spotify {
+    position: absolute;
+    
+    width: 40px;
+    height: 40px;
+
+    background: #C4C4C4;
+}
+
+.instagram {
+    position: absolute;
+    margin-left: 64px;
+    
+    width: 40px;
+    height: 40px;
+
+    background: #C4C4C4;
+}
+
+.youtube {
+    position: absolute;
+    margin-left: 128px;
+    
+    width: 40px;
+    height: 40px;
+
+    background: #C4C4C4;
+}
+
